@@ -47,6 +47,8 @@ sudo apt-get install -y php5.6-gd
 sudo apt-get install -y php5.6-xml
 sudo apt-get install -y php5-mcrypt
 sudo php5enmod mcrypt
+# programs
+sudo apt-get install zip gzip tar
 
 #ioncube installation
 sudo wget http://downloads3.ioncube.com/loader_downloads/ioncube_loaders_lin_x86-64.tar.gz
