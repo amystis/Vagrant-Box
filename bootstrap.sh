@@ -45,6 +45,8 @@ echo "${VHOST}" > /etc/apache2/sites-enabled/000-default.conf
 sudo apt-get install -y php5.6-mbstring
 sudo apt-get install -y php5.6-gd
 sudo apt-get install -y php5.6-xml
+sudo apt-get install -y php5-mcrypt
+sudo php5enmod mcrypt
 
 #ioncube installation
 sudo wget http://downloads3.ioncube.com/loader_downloads/ioncube_loaders_lin_x86-64.tar.gz
