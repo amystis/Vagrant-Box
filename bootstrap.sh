@@ -45,8 +45,8 @@ echo "${VHOST}" > /etc/apache2/sites-enabled/000-default.conf
 sudo apt-get install -y php5.6-mbstring
 sudo apt-get install -y php5.6-gd
 sudo apt-get install -y php5.6-xml
-sudo apt-get install -y php5-mcrypt
-sudo php5enmod mcrypt
+sudo apt-get install -y php5.6-mcrypt
+sudo php5.6enmod mcrypt
 # programs
 sudo apt-get install zip gzip tar
 
